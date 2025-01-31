@@ -8,5 +8,87 @@
 
 .fa-bars{
     color: #179800;
+    cursor: pointer;
+    transition: color 0.3s linear;
 }
 
+.fa-bars:hover{
+    color: #111111;
+}
+
+
+.bannerContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bannerImageDiv{
+    margin: 0 auto;
+    width: 50%;
+   
+}
+
+.bannerImageDiv img{
+  width: 100%;
+}
+
+
+
+/* Media Query */
+
+@media  (max-width: 639px) {
+    
+.bannerImageDiv{
+   width: 100%;
+   
+}
+
+  
+}
+
+
+
+
+@media  (min-width: 640px) {
+  
+    .bannerImageDiv{
+        width: 90%;
+
+}
+
+
+
+@media  (min-width: 892px) {
+  
+    .bannerImageDiv{
+        width: 60%;
+
+}
+
+
+
+@media  (min-width: 1186px) {
+  
+    .bannerImageDiv{
+        width: 50%;   
+
+}
+
+
+
+@media  (min-width: 1480px) {
+  
+
+
+}
+
+
+
+@media  (min-width: 1620px) {
+  
+
+
+}
