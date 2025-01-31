@@ -32,30 +32,30 @@
    <header>
         <section id="headerSection" class="w-screen bg-gradient-to-b from-[#ffffff] to-[#EFEBE3]">
 
-            <nav>
+            <nav class="border-2 border-accent sm:border-0">
                 <div class="container flex justify-between items-center">
 
                     <div>
-                        <img src="assets/logo-header.png" alt="logo-image" class="w-28 sm:w-28 lg:w-32 xl:w-36 py-8 cursor-pointer hover:scale-105 duration-500">
+                        <img src="assets/logo-header.png" alt="logo-image" class="w-28 lg:w-32 xl:w-36 py-8 cursor-pointer hover:scale-105 duration-500">
                     </div>
 
-                    <div>
-                        <ul class="flex justify-center items-center space-x-1 md:space-x-2 lg:space-x-3 xl:space-x-5 text-xs sm:text-xs md:text-base lg:text-lg xl:text-xl font-light sm:font-light md:font-light xl:font-normal">
+                    <div class="hidden sm:block">
+                        <ul class="flex justify-center items-center space-x-1 md:space-x-2 lg:space-x-3 xl:space-x-5 text-xs md:text-base lg:text-lg xl:text-xl font-light xl:font-normal">
                             <li><a href="#" class="px-1 md:px-2 xl:px-3 py-1 lg:py-2 xl:py-2 hover:text-accent duration-300">Product</a></li>
                             <li><a href="#" class="px-1 md:px-2 xl:px-3 py-1 lg:py-2 xl:py-2 hover:text-accent duration-300">Service</a></li>
                             <li><a href="#" class="px-1 md:px-2 xl:px-3 py-1 lg:py-2 xl:py-2 hover:text-accent duration-300">Contact us</a></li>
                         </ul>
                     </div>
 
-                    <div class="flex justify-center items-center space-x-1 md:space-x-2 lg:space-x-3 xl:space-x-4 text-xs sm:text-xs md:text-base lg:text-lg xl:text-xl font-light sm:font-light md:font-light xl:font-normal">
+                    <div class="hidden sm:flex justify-center items-center space-x-1 md:space-x-2 lg:space-x-3 xl:space-x-4 text-xs md:text-base lg:text-lg xl:text-xl font-light xl:font-normal">
                         <i class="fas fa-search px-2 py-1 md:px-3 md:py-2 hover:text-accent duration-300 cursor-pointer"></i>
                         <i class="fas fa-shopping-cart px-2 py-1 md:px-3 md:py-2 hover:text-accent duration-300 cursor-pointer"></i>
-                        <button class="outline-0 border-2 border-accent ring-0 text-primary bg-transparent hover:bg-accent hover:border-2 hover:border-transparent hover:text-white duration-300 transition-all ease-linear rounded-lg cursor-pointer px-2 sm:px-2 md:px-4 lg:px-6 xl:px-8 py-1 xl:py-2 text-xs sm:text-xs md:text-base lg:text-lg xl:text-xl font-light sm:font-light md:font-light xl:font-normal">Login</button>
-                        <button class="outline-0 border-2 border-transparent ring-0 text-white bg-accent hover:bg-transparent hover:border-2 hover:border-accent hover:text-primary duration-300 transition-all ease-linear rounded-lg cursor-pointer px-2 sm:px-2 md:px-4 lg:px-6 xl:px-8 py-1 xl:py-2 text-xs sm:text-xs md:text-base lg:text-lg xl:text-xl font-light sm:font-light md:font-light xl:font-normal">Register</button>
+                        <button class="outline-0 border-2 border-accent ring-0 text-primary bg-transparent hover:bg-accent hover:border-2 hover:border-transparent hover:text-white duration-300 transition-all ease-linear rounded-lg cursor-pointer px-2 md:px-4 lg:px-6 xl:px-8 py-1 xl:py-2 text-xs md:text-base lg:text-lg xl:text-xl font-light xl:font-normal">Login</button>
+                        <button class="outline-0 border-2 border-transparent ring-0 text-white bg-accent hover:bg-transparent hover:border-2 hover:border-accent hover:text-primary duration-300 transition-all ease-linear rounded-lg cursor-pointer px-2 md:px-4 lg:px-6 xl:px-8 py-1 xl:py-2 text-xs md:text-base lg:text-lg xl:text-xl font-light xl:font-normal">Register</button>
                     </div>
 
-                    <div class="hidden">
-                        <i class="fas fa-bars"></i>
+                    <div class="sm:hidden">
+                        <i class="fas fa-bars text-accent  text-2xl font-normal"></i>
                     </div>
 
                 </div>
