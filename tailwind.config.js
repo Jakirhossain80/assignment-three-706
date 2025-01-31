@@ -7,16 +7,18 @@ module.exports = {
       md: '892px',
       lg: '1186px',
       xl: '1480px',
+      xxl: '1620px',
 
     },
     container:{
       center: true,
       padding: {
         DEFAULT: '7vw',
-        sm: '8vw',
-        md: '7vw',
-        lg: '6vw',
-        xl: '6vw',
+        sm: '5vw',
+        md: '4vw',
+        lg: '4vw',
+        xl: '4vw',
+        xxl: '2vw',
       },    
     
     },
