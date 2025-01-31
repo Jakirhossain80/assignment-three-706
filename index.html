@@ -11,6 +11,61 @@
      <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="main.css">
 
+     <!-- Tailwind CSS -->
+     <script src="https://cdn.tailwindcss.com"></script>
+
+     <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      sm: '640px',
+      md: '892px',
+      lg: '1186px',
+      xl: '1480px',
+      xxl: '1620px',
+
+    },
+    container:{
+      center: true,
+      padding: {
+        DEFAULT: '7vw',
+        sm: '5vw',
+        md: '4vw',
+        lg: '4vw',
+        xl: '4vw',
+        xxl: '2vw',
+      },    
+    
+    },
+
+            extend: {
+                fontFamily:{
+        sora: ["Sora", "serif"],
+        poppins: ["Poppins", "serif"],
+      },
+
+      colors: {
+        'primary': '#111111',
+        'secondary': '#EFEBE3',
+        'accent': '#179800',
+        'white': '#ffffff',
+      },
+
+            }
+          }
+        }
+      </script>
+
+<!-- <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style> -->
+
+
+
      <!-- Google font -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
