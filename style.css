@@ -30,14 +30,15 @@
 .bannerImageDiv{
     margin: 0 auto;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
 
 .bannerImageDiv img{
   width: 100%;
-  display: inline-block;
-  margin: 0 auto;
-}
+  
 
 
 
