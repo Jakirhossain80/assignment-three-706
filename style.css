@@ -16,6 +16,11 @@
     color: #111111;
 }
 
+.fa-star{
+    font-size: 12px;
+    color: rgb(241, 241, 7);
+}
+
 
 .bannerContainer{
     display: grid;
@@ -38,6 +43,7 @@
 
 .bannerImageDiv img{
   width: 100%;
+}
   
 
 
@@ -61,6 +67,34 @@
   
     .bannerImageDiv{
         width: 90vw;
+    }
+
+    .fa-star{
+        font-size: 10px;
+        
+    }
+
+    .productRightText{
+        line-height: 0.7;
+    }
+
+    .productRightText span{
+        font-size: 10px;
+
+    }
+
+    .productRightText h5{
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .productRightText p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+
+    
 
 }
 
@@ -70,7 +104,9 @@
   
     .bannerImageDiv{
         width: 60vw;
+    }
 
+    
 }
 
 
@@ -78,7 +114,9 @@
 @media  (min-width: 1186px) {
   
     .bannerImageDiv{
-        width: 50vw;   
+        width: 50vw; 
+    }  
+
 
 }
 
