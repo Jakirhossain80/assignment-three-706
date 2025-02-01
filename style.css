@@ -99,7 +99,47 @@
 }
 
 /* Testimonial end */
- 
+
+
+.mainContainer{
+    position: relative;
+    padding: 0 30px;
+}
+
+
+
+.newsletterContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    
+
+}
+
+
+
+
+.footerContainer{
+    min-height: 280px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media Query */
@@ -128,6 +168,11 @@
 }
 
 
+.footerContainer{
+    min-height: 880px;
+}
+
+
   
 }
 
@@ -135,6 +180,13 @@
 
 
 @media  (min-width: 640px) {
+
+    
+.footerContainer{
+    min-height: 280px;
+    
+}
+
   
     .bannerImageDiv{
         width: 90vw;
