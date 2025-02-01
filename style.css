@@ -44,8 +44,7 @@
 .bannerImageDiv img{
   width: 100%;
 }
-  
-
+ 
 
 
 /* Media Query */
@@ -56,6 +55,18 @@
    width: 100vw;
    
 }
+
+.offerRightImgOne{
+    width: 80px;
+
+}
+
+.offerRightImgTwo{
+    width: 150px;
+    
+
+}
+
 
   
 }
@@ -94,6 +105,28 @@
     }
 
 
+
+     
+.offerLeftCard button{
+
+    font-size: 8px;
+    
+}
+
+
+     
+.offerRightImgOne{
+    width: 55px;
+
+}
+
+.offerRightImgTwo{
+    width: 110px;
+
+}
+
+
+
     
 
 }
@@ -116,6 +149,8 @@
     .bannerImageDiv{
         width: 50vw; 
     }  
+
+
 
 
 }
