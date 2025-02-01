@@ -127,6 +127,62 @@
 
 
 
+.bannerContainer{
+    position: relative;
+
+}
+
+
+.rotatImage{
+    animation: spin 4s linear infinite;
+
+}
+
+
+/* Keyframes for rotation */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.scalImage{
+
+    animation: moveEffect 1s linear infinite alternate;
+
+}
+
+
+
+/* Keyframes for translating */
+@keyframes moveEffect {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(50px);
+    }
+}
+
+
+
+.animationOne{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+}
+
+.animationTwo{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+
+}
 
 
 
